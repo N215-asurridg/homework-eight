@@ -1,0 +1,95 @@
+.contact-page {
+  
+    .contact-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .contact-title { 
+  max-width: 980px;
+  font-family: Gill Bold;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  
+
+  hr {
+    width: 300px;
+    border-top: solid 3px black;
+    margin-top: -20px;
+  }
+    }
+    }
+    .box-container-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box-container {
+        max-width: 980px;
+        min-height: 442px;
+        margin-left: -425px;
+        margin-bottom: 50px;
+        //   background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+        .map {
+          width: 400px;
+          height: 442px;
+          background-image: url(../images/map.jpg);
+          margin-top: -20px;
+        }
+      
+        .form-input {
+          width: 529px;
+          min-height: 442px;
+          // background-color: aquamarine;
+      
+          .long-box {
+            width: 529px;
+            height: 60px;
+            border: none;
+            background-color: #f5f5f5;
+            padding-left: 21px;
+            font-family: Gils;
+            font-size: 16px;
+            margin-bottom: 21px;
+          }
+      
+          .tall-box {
+            width: 529px;
+            height: 199px;
+            border: none;
+            background-color: #f5f5f5;
+            padding-left: 21px;
+            font-family: Gils;
+            font-size: 16px;
+            margin-bottom: 21px;
+          }
+        }
+      }
+    }
+    .button-container {
+        width: 100%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+        .button {
+            height: 80px;
+            width: 240px;
+            background-color: burlywood;
+            border-radius: 40px;
+            display: flex;
+             align-items: center;
+            justify-content: center;
+
+            p {
+                font-family: Gill Bold;
+                font-size: 25px;
+                margin-top: 25px;
+            }
+
+        }
+    }
+}

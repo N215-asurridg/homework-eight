@@ -1,0 +1,114 @@
+.about-title {
+    margin-left: 470px;
+    margin-top: 70px;
+    h1 {
+        font-family: Gill Bold;
+        font-size: 50px;
+    }
+    hr {
+        width: 200px;
+        border-top: solid 3px black;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    } 
+}
+
+.about-paragraph {
+    width: 100%;
+    // background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    p {
+        max-width: 980px;
+        height: 96px;
+        // background-color: aquamarine;
+        font-family: Gill Light;
+    }
+    
+
+}
+
+.about-paragraph2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+    p {
+        max-width: 980px;
+        height: 96px;
+        // background-color: aquamarine;
+        font-family: Gill Light;
+    }
+}
+
+.artist-quote-container {
+    width: 100%;
+    height: 100px;
+    // background-color: antiquewhite;
+    margin-left: 470px;
+    margin-bottom:  300px;
+    
+
+    .artist-header {
+        max-width: 980px;
+        margin-top: 80px;
+        
+
+        h1 {
+            font-size: 40px;
+            font-family: Gill Bold;
+            font-style: italic;
+        }
+            hr {
+                width: 190px;
+                border-top: solid 3px black;
+                margin-top: -25px;
+                margin-bottom: 30px;
+            } 
+        
+    }
+
+    .artist-photo-quote-container {
+        max-width: 980px;
+        height: 250px;
+        
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+       
+
+        .artist-image {
+        // background-image: url(../images/casper.jpg) ;
+        width: 250px;
+        height: 150px;
+        background-color: beige;
+        background-position: center;
+        }
+        .artist-quote {
+            width: 600px;
+            height: 202px;
+            
+            position: relative;
+            margin-left: 90px;
+            
+            p {
+                font-family: Gill Light;
+                font-size: 25px;
+                
+            }
+        }
+        .name-tag {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-family: Gill Bold;
+        font-size: 25px;
+
+
+        }
+
+    }
+}

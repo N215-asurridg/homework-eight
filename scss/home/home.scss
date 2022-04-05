@@ -1,0 +1,92 @@
+.header {
+    width: 100%;
+    height: 500px;
+    // background-color: antiquewhite;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/hero.JPEG);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+//   margin: -85px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+      color: antiquewhite;
+      font-family: OE;
+      font-size: 40px;
+  }
+}
+
+
+.paragraph-container {
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .paragraph {
+        font-family: Gill Light;
+    }
+
+    
+}
+
+.image-gallery-container {
+  width: 100%;
+  height: 300px;
+  margin-top: -50px;
+  margin-bottom: 100px;
+  
+  .image-gallery {
+    max-width: 1200px;
+    height: 300px;
+    margin-left: 355px;
+    display: flex;
+    justify-content: space-between;
+
+    .tour1 {
+      height: 300px;
+      width: 250px;
+      background-color: aquamarine;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/usa-tour-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;;
+    }
+    .tour2 {
+      height: 300px;
+      width: 250px;
+      background-color: aquamarine;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/usa-tour-02.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;;
+    }
+    .tour3 {
+      height: 300px;
+      width: 250px;
+      background-color: aquamarine;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/usa-tour-03.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;;
+    }
+    .tour4 {
+      height: 300px;
+      width: 250px;
+      background-color: aquamarine;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-08.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;;
+    }
+  }
+}
